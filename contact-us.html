@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- will not be visible in browser view port -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Welcome to Youtube V1 Contact Us Page.The best video platform.Browse through all videos for free">
+  <meta name="keywords" content="movie video, youtube music, live stream games, sports videos, sports highlights">
+  <title>
+    Contact us
+  </title>
+  <!-- Linking Normalize.css External Styles -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Linking Custom External Styles -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-wrapper">
+      <aside class="collapsible-menu">
+        <button type="button"><i class="fa-solid fa-bars"></i></button>
+        <!--<nav id="primaryNav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Shorts</a></li>
+          <li><a href="/">Subscription</a></li>
+          <li><a href="/">Library</a></li>
+          <li><a href="/">History</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav> -->
+      </aside>
+      <div class="main-header">
+        <a href="index.html" class="logo-link">
+          <img src="./assets/images/youtube-logo.png" alt="Youtube Logo" height="65" width="75"></a>
+        <div class="controls-bar">
+          <input type="search" class="search-input" placeholder="Search">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-microphone"></i></button>
+          <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          <button><i class="fa-regular fa-user"></i> Sign in</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="contact-container">
+    <h1 id="headerContactUs">Contact us</h1>
+    <div class="address-container">
+      <section id="mapImage">
+        <h2>Locate us here</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.374260790537!2d77.4003241144243!3d28.49838548247091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce85e51715a75%3A0x4ac78e96e456c14!2sCognizant!5e0!3m2!1sen!2sin!4v1670390619659!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <section id="addressInfo">
+        <h2>Reach us here</h2>
+        <address>
+          <h4>Cognizant Technology Solutions</h4>
+          Building No-10 Sea view Developers Ltd , <br>
+          No-20 & 21 INFOSPACE,<br>
+          Sector 135, Bajidpur, <br>
+          Uttar Pradesh 201304<br>
+          <p>Phone: 4537479689</p>
+          <p>E-mail: <a href="mailto:contact@cognizant.com">contact@cognizant.com</a></p>
+        </address>
+      </section>
+    </div>
+
+    <section class="form-container">
+      <h2>Contact us by filling the form</h2>
+      <form class="contact-form">
+        <div class="field-group">
+          <label for="nameInput">Enter Name</label>
+          <input id="nameInput" type="text" name="fullName" placeholder="Enter your name" required>
+        </div>
+        <div class="field-group">
+          <label for="emailInput">Enter EMail Id</label>
+          <input id="emailInput" type="email" name="email" placeholder="Enter email id" required>
+        </div>
+        <div class="field-group">
+          <label for="phoneInput">Enter Phone</label>
+          <input id="phoneInput" type="tel" name="phone"  placeholder="+91 12345678" required>
+        </div>
+        <div class="field-group">
+          <label for="queryInput" class="query-label">Enter Query</label>
+          <textarea rows="3" cols="40" name="query" placeholder="Enter your query(max 250)" required>
+          </textarea> 
+        </div class="field-group">
+        <div class="field-group">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer-input">
+    <hr>
+    <nav id="footerNav" class="footer-nav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <p id="para">Copyright &copy; 2022 | Asmita</p>
+  </footer>
+
+</body>

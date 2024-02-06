@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- will not be visible in browser view port -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Welcome to Youtube V1 About Page.The best video platform.Browse through all videos for free">
+  <meta name="keywords" content="movie video, youtube music, live stream games, sports videos, sports highlights">
+  <title>
+      About
+    </title>
+    <!-- Linking Normalize.css External Styles -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Linking Custom External Styles -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-wrapper">
+      <aside class="collapsible-menu">
+        <button type="button"><i class="fa-solid fa-bars"></i></button>
+        <!--<nav id="primaryNav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Shorts</a></li>
+          <li><a href="/">Subscription</a></li>
+          <li><a href="/">Library</a></li>
+          <li><a href="/">History</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav> -->
+      </aside>
+      <div class="main-header">
+        <a href="index.html" class="logo-link">
+          <img src="./assets/images/youtube-logo.png" alt="Youtube Logo" height="65" width="75"></a>
+        <div class="controls-bar">
+          <input type="search" class="search-input" placeholder="Search">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-microphone"></i></button>
+          <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          <button><i class="fa-regular fa-user"></i> Sign in</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="about-container">
+    <aside id="sidebarNav">
+      <nav>
+        <ul>
+          <li><a href="about.html#aboutYoutube">About Youtube</a></li>
+          <li><a href="about.html#ytIntroVideo">Youtube Video</a></li>
+          <li><a href="about.html#ytIntroAudio">Youtube Intro Audio</a></li>
+          <li><a href="about.html#youtubeService">Youtube Services</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- div>section*4>h2+p-->
+    <div>
+      <section id="aboutYoutube">
+        <h1>About Youtube</h1>
+        <p>YouTube is an American online video sharing and social media platform headquartered in San Bruno, California.
+          It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It is owned by Google, and
+          is the second most visited website, after Google Search. YouTube has more than 2.5 billion monthly user who
+          collectively watch more than one billion hours of videos each day.
+        </p>
+        <a href="/index.html">Browse Videos</a>
+      </section>
+
+      <section id="ytIntroVideo">
+        <h2>Youtube Intro Video</h2>
+        <video width="600" controls>
+          <source src="./assets/videos/youtube-video.mp4">
+        </video>
+      </section>
+
+      <section id="ytIntroAudio">
+        <h3>Youtube Intro Audio</h3>
+        <audio controls>
+          <source src="./assets/audios/audio-yt.mp3">
+        </audio>
+      </section>
+
+      <section id="youtubeServices">
+        <h2>Youtube Services</h2>
+
+        <h3>Youtube Premium</h3>
+        <p>With YouTube Premium, you can watch millions of videos without interruptions by ads before an…
+          You may still see branding or promotions embedded in the content by the creator and promotional links, shelves
+          and features in and around the content that are added or enabled by the creator.
+        </p>
+        <h3>Youtube Shorts</h3>
+        <p>
+          Now you can create, edit, and share short videos with YouTube Shorts. Whether you’re sharing your voice with
+          the masses or just making funny videos for your friends, all you need is your phone and an idea, and you’re in
+          the mix!
+        </p>
+        <h3>Youtube Kids</h3>
+        <p>
+          YouTube Kids is an American video app and website for children developed by YouTube,
+          a subsidiary of Google. The app provides a version of the service oriented solely towards children
+          , with curated selections of content, parental control features, and filtering of videos deemed inappropriate
+          for viewing by children under the age of 13, in accordance with the Children's Online Privacy Protection Act.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer-input">
+    <hr>
+    <nav id="footerNav" class="footer-nav">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <p id="para">Copyright &copy; 2022 | Asmita</p>
+  </footer>
+
+</body>
+
+</html>

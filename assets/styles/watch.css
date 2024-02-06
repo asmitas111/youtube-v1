@@ -1,0 +1,95 @@
+/* External Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+  padding-top: 72px;
+}
+
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 73px;
+  border-bottom: solid 1px #ccc;
+  background: #f9f9f9;
+}
+
+/* Styles for headerr */
+/* Class Selector */
+.header-wrapper {
+  margin: 0px auto;
+  padding: 12px 0;
+  width: 980px;
+  text-align: right;
+}
+
+.logo-link {
+  display: inline-block;
+  height: 68px;
+  width: 48px;
+  vertical-align: middle;
+}
+
+.controls-bar {
+  display: inline-block;
+  width: calc(100% - 56px);
+  text-align: right;
+
+}
+
+.collapsible-menu,
+.main-header {
+  display: inline-block;
+}
+
+.collapsible-menu {
+  width: 36px;
+  text-align: left;
+}
+
+.main-header {
+  width: calc(100% - 42px);
+}
+
+.search-input {
+  width: 500px;
+  padding: 8px 12px;
+  font-size: 15px;
+  outline: none;
+  border: solid 1px #bbb;
+  border-radius: 16px;
+  align-items: center;
+}
+
+
+/* Styles for Footer */
+.footer-input {
+  text-align: center;
+}
+
+.footer-nav {
+  text-align: center;
+  border-top: 1px;
+}
+
+.footer-nav ul {
+  padding-inline-start: 0px;
+}
+
+.footer-nav ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 6px;
+}
+
+.footer-nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-input p {
+  text-align: center;
+}
+
